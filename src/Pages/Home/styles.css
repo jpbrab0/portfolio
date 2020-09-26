@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    border: none;
+}
+body{
+    background: #081229;
+    color: #fff;
+    font-family: Roboto;
+    -webkit-font-smoothing:antialiased;
+}
+section.about-me{
+    background: #1ADBB9;
+    margin: 32px auto;
+    color: #fff;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+section.description{
+    margin: 23px auto !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+section.description .img img{
+    width: 60%;
+    border-radius: 50%;
+    border: 3px solid #5DD7D9;
+}
+section.description div h1{
+    margin-left: 13px;
+    width: 70%;
+    font-size: 38px;
+    font-family: 'Roboto Slab';
+    
+}
+section.description div p{
+    width: 90%;
+    margin-left: 13px;
+    font-size: 18px;
+}
+.languages{
+    margin: 32px auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.languages .img{
+    width: 50%;
+}
+.languages img{
+    width: 80%;
+}
+.languages .description{
+    justify-content: space-evenly;
+    width: 20%;
+}
+.languages .description h1{
+    margin: 16px 0;
+}
+.languages .description p img{
+    width: 60%;
+}
+.languages .img{
+    text-align: right;
+    margin-left: 13px;
+}
+@media(max-width:1000px){
+    main .about-me{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    main .about-me .img{
+        text-align: center;
+        width: 40%;
+    }
+    main .about-me img{
+        width: 10%;
+    }
+    main .about-me .description{
+        text-align: center;
+        width: 100%;
+    }
+    main .about-me .description h1{
+        text-align: left;
+    }
+    main .about-me .description p{
+        text-align: left;
+        margin-left: 32px;
+    }
+}
+@media(max-width:900px){
+    section.description{
+        width: 100%;
+        margin: 23px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+    section.description p{
+        width: 100%;
+        text-align: left;
+        
+    }
+    languages{
+        text-align: left;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .languages .img{
+        display: none;
+    }
+    .languages .description{
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .languages .description p img{
+        margin: 0 auto;
+        display: block;
+        width: 30%;
+    }
+}

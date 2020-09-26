@@ -1,0 +1,89 @@
+.projects_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects_header div{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.projects_header a{
+    position: absolute;
+    left: 0;
+    margin-left: 13px;
+}
+main .projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+main .projects .project{
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #00001428;
+    height: 26rem;
+    margin:32px;
+    border-radius: 13px;
+    border: 1px solid rgb(218, 215, 215);
+    text-align: center;
+    width: 80%;
+}
+main .projects .project + .project{
+    margin-left: 28px;
+}
+main .projects .project header img{
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    width: 20%;
+    transition: 0.2s;
+}
+main .projects .project header img:hover{
+    border: 1px solid coral;
+}
+main .projects .project .thumbnail img{
+    text-align: center;
+    width: 80%;
+}
+main .projects .project .description p{
+    width: 80%;
+    margin: 13px auto;
+    text-align: left;
+}
+main .projects .project .description h2{
+    margin: 23px auto;
+    text-align: center;
+}
+@media(max-width:880px){
+    header h1{
+        font-size: 32px;
+    }
+    main .projects{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    main .projects .project{
+        width: 80%;
+        height: 700px;
+    }
+}
+@media(max-width:550px){
+    header h1{
+        font-size: 32px;
+    }
+    main .projects{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+    main .projects .project{
+        width: 80%;
+        height: 400px;
+    }
+} 

@@ -1,0 +1,29 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Roboto;
+    width:100%;
+    padding: 13px 0;
+}
+header a{
+    color: #fff;
+
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.2s;
+}
+header a + a{
+    margin-left: 16px;
+    
+}
+header a:hover{
+    color: #7159c1;
+    font-size: 24px;
+}
+@media(max-width:1000px){
+    header h1, header a{
+        font-size: 18px;
+    }
+}
