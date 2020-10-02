@@ -8,7 +8,7 @@ const NewsLetter = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
 
-    const history = useHistory()
+  const history = useHistory()
 
   async function formSend(e) {
     e.preventDefault();
