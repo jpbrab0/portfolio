@@ -52,7 +52,10 @@ form .form__content button {
 input.remove {
   width: 28vw;
 }
-@media (max-width: 760px) {
+@media (max-width: 988px) {
+  form .form__content{
+    margin: 0 auto;
+  }
   form .form__content .form__inputs {
     display: flex;
     flex-direction: column;

@@ -22,10 +22,14 @@
     font-weight: bold;
     font-size: 20px;
 }
-@media(max-width:430px){
+@media(max-width:700px){
     .links{
         display: flex;
         justify-content: center;
+    }
+    .links .item:first-child div:first-child img{
+        width: 100%;
+        margin-top: -13px;
     }
     .links .item div:first-child{
         width: 100%;
