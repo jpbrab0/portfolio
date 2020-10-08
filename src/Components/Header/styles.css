@@ -6,13 +6,26 @@ header{
     width:100%;
     padding: 13px 0;
 }
+header.headerProject {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 101px;
+}
 header a{
     color: #fff;
-
     box-sizing: border-box;
     text-decoration: none;
     font-size: 18px;
     transition: 0.2s;
+}
+header a.projects {
+    position: relative;
+    width: 100%;
+    height: 101px;
 }
 header a + a{
     margin-left: 16px;
@@ -20,7 +33,6 @@ header a + a{
 }
 header a:hover{
     color: #7159c1;
-    font-size: 24px;
 }
 @media(max-width:1000px){
     header{
@@ -29,5 +41,13 @@ header a:hover{
     }
     header h1, header a{
         font-size: 16px;
+    }
+    header.headerProject {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-family: Roboto;
+        width:100%;
+        padding: 13px 0;
     }
 }

@@ -18,28 +18,34 @@
     margin-left: 13px;
 }
 main .projects{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 main .projects .project{
     box-sizing: border-box;
     background-color: #fff;
     color: #000;
     box-shadow: 0.5px 0.5px 0.5px 0.5px #00001428;
-    height: 26rem;
-    margin:32px;
+    margin: 30px;
     border-radius: 13px;
     border: 1px solid rgb(218, 215, 215);
     text-align: center;
-    width: 80%;
+    width: 25%;
 }
 main .projects .project + .project{
     margin-left: 28px;
 }
 main .projects .project header img{
     border-radius: 50%;
-    border: 1px solid #ffffff;
-    width: 20%;
+    width: 80px;
+    padding: 1px;
+    border: 1px solid transparent;
+    position: absolute;
+    box-sizing:border-box;
     transition: 0.2s;
 }
 main .projects .project header img:hover{
@@ -47,7 +53,7 @@ main .projects .project header img:hover{
 }
 main .projects .project .thumbnail img{
     text-align: center;
-    width: 80%;
+    width: 68%;
 }
 main .projects .project .description p{
     width: 80%;
@@ -59,6 +65,12 @@ main .projects .project .description h2{
     text-align: center;
 }
 @media(max-width:880px){
+    main .projects{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
     header h1{
         font-size: 32px;
     }
@@ -69,8 +81,13 @@ main .projects .project .description h2{
         align-items: center;
     }
     main .projects .project{
-        width: 80%;
-        height: 700px;
+        width: 50%;
+        height: auto;
+        padding-bottom: 50px;
+    }
+    main .projects .project .thumbnail img{
+        text-align: center;
+        width: 70%;
     }
 }
 @media(max-width:550px){
