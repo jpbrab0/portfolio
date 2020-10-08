@@ -8,8 +8,11 @@ header{
 }
 header.headerProject {
     padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
-    width: 478px;
+    width: 100%;
     height: 101px;
 }
 header a{
@@ -21,7 +24,7 @@ header a{
 }
 header a.projects {
     position: relative;
-    width: 400px;
+    width: 100%;
     height: 101px;
 }
 header a + a{
@@ -38,5 +41,13 @@ header a:hover{
     }
     header h1, header a{
         font-size: 16px;
+    }
+    header.headerProject {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-family: Roboto;
+        width:100%;
+        padding: 13px 0;
     }
 }
