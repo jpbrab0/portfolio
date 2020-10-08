@@ -6,13 +6,23 @@ header{
     width:100%;
     padding: 13px 0;
 }
+header.headerProject {
+    padding: 0;
+    position: relative;
+    width: 478px;
+    height: 101px;
+}
 header a{
     color: #fff;
-
     box-sizing: border-box;
     text-decoration: none;
     font-size: 18px;
     transition: 0.2s;
+}
+header a.projects {
+    position: relative;
+    width: 400px;
+    height: 101px;
 }
 header a + a{
     margin-left: 16px;
@@ -20,7 +30,6 @@ header a + a{
 }
 header a:hover{
     color: #7159c1;
-    font-size: 24px;
 }
 @media(max-width:1000px){
     header{

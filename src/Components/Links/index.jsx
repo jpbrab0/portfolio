@@ -22,7 +22,7 @@ const Links = () => {
                 <div className="item">
                     <div>
                         <a href="https://www.youtube.com/channel/UC7HsgG803jN6UakOzSVZ5lQ?view_as=subscriber" target="_blank">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="Logo youtube"/>
+                            <img src="https://logodownload.org/wp-content/uploads/2014/10/youtube-logo-7-2.png" alt="Logo youtube"/>
                         </a>
                     </div>
                     <div>Youtube</div>

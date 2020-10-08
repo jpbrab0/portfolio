@@ -17,8 +17,8 @@ const Projects = () => {
             <main>
                 <div className="projects">
                     <div className="project">
-                        <header>
-                            <a href="https://github.com/jpbrab0/netflix-web-ui-clone" target="_blank">
+                        <header className='headerProject'>
+                            <a className='projects' href="https://github.com/jpbrab0/netflix-web-ui-clone" target="_blank">
                                 <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Logo github"/>
                             </a>
                         </header>
@@ -31,8 +31,8 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="project">
-                        <header>
-                            <a href="https://github.com/jpbrab0/gunter-bot-discord" target="_blank">
+                        <header className='headerProject'>
+                            <a className='projects' href="https://github.com/jpbrab0/gunter-bot-discord" target="_blank">
                                 <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Logo github"/>
                             </a>
                         </header>
@@ -45,8 +45,8 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="project">
-                        <header>
-                            <a href="https://github.com/jpbrab0/pedra-papel-tesoura" target="_blank">
+                        <header className='headerProject'>
+                            <a className='projects' href="https://github.com/jpbrab0/pedra-papel-tesoura" target="_blank">
                                 <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Logo github"/>
                             </a>
                         </header>
@@ -59,8 +59,8 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="project">
-                        <header>
-                            <a href="https://github.com/jpbrab0/instagram-ui-clone" target="_blank">
+                        <header className='headerProject'>
+                            <a className='projects' href="https://github.com/jpbrab0/instagram-ui-clone" target="_blank">
                                 <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Logo github"/>
                             </a>
                         </header>
@@ -73,8 +73,8 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="project">
-                        <header>
-                            <a href="https://github.com/jpbrab0/twitchtv-clone" target="_blank">
+                        <header className='headerProject'>
+                            <a className='projects' href="https://github.com/jpbrab0/twitchtv-clone" target="_blank">
                                 <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Logo github"/>
                             </a>
                         </header>
@@ -87,8 +87,8 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="project">
-                        <header>
-                            <a href="https://github.com/jpbrab0/personal-portfolio" target="_blank">
+                        <header className='headerProject'>
+                            <a className='projects' href="https://github.com/jpbrab0/personal-portfolio" target="_blank">
                                 <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Logo github"/>
                             </a>
                         </header>
