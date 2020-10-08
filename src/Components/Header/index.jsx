@@ -12,9 +12,6 @@ function Header(props){
                 <Link to="/projects">
                     Projects
                 </Link>
-                <Link to="/newsletter">
-                    NewsLetter
-                </Link>
             </section>
         </header>
     )
