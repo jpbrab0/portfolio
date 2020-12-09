@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import axios from 'axios'
 import './styles.css'
 import Programando from '../../assets/programando.svg'
 import Header from '../../Components/Header'
 import Links from '../../Components/Links'
 const Home = () => {
+    const [githubInfo, setGithubInfo] = useState('')
+    useEffect(() => {
+        axios.get("https://api.github.com/users/jpbrab0").then(res => {
+            setGithubInfo(res.data)
+        })
+    }, [])
     return(
         <>
             <Header title="João Pedro"/>
@@ -19,7 +26,7 @@ const Home = () => {
                             Currently I'm 13 years old and front-end developer with Python, Javascript and three frameworks ReactJs, NodeJS and React Native</p>
                         </div>
                         <div className="img">
-                            <img src="https://avatars1.githubusercontent.com/u/58999202?s=460&u=450f987552a42e720e85d49e9226122f824cf1bb&v=4" alt="Homem Programando" draggable={false}/>
+                            <img src={githubInfo.avatar_url} alt="Homem Programando" draggable={false}/>
                         </div>
                     </section>
                 </section>

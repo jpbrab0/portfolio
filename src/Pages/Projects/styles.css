@@ -51,6 +51,9 @@ main .projects .project header img{
 main .projects .project header img:hover{
     border: 1px solid coral;
 }
+main .projects .project header{
+    height: 60px;
+}
 main .projects .project .thumbnail img{
     text-align: center;
     width: 68%;
