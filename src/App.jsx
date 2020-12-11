@@ -1,11 +1,9 @@
 import React from "react";
-import Footer from "./Components/Footer";
 import Routes from "./routes";
 function App() {
   return (
     <>
       <Routes />
-      <Footer/>
       {console.log(`%c
  .       .       .       .  .:::.. .     .    ..:;:.  .   .      .       .      
  .  .    .  .    .  .   .8X8@88S;t:  .  .:tX8@@@88S.   .   . .   .  .    .  . 

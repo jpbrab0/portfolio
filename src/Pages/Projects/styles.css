@@ -23,6 +23,7 @@ main .projects{
     height: 100%;
     flex-wrap: wrap;
     flex-flow: row wrap;
+    margin-bottom: 32px;
     justify-content: space-around;
 }
 main .projects .project{
@@ -108,3 +109,7 @@ main .projects .project .description h2{
         height: 400px;
     }
 } 
+.loading__container{
+    text-align: center;
+    width: 100%;
+}

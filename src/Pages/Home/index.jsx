@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import './styles.css'
+import Footer from '../../Components/Footer'
 import Programando from '../../assets/programando.svg'
 import Header from '../../Components/Header'
 import Links from '../../Components/Links'
@@ -54,6 +55,7 @@ const Home = () => {
                     </div>
                 </section>
             </main>
+            <Footer position={false}/>
         </>
     )
 }

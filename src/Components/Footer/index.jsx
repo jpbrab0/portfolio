@@ -1,11 +1,15 @@
 import React from 'react'
 import './styles.css'
 
-export default _ => {
+export default ({ position }) => {
     return(
         <>
-            <footer>
-                <a href="https://pt-br.reactjs.org/" target="_blank">
+            <footer style={
+                {
+                    position:position ? 'absolute' : 'relative'
+                }
+            }>
+                <a href="https://pt-br.reactjs.org/" rel="opener">
                     Feito com ReactJs 
                 </a>
             </footer>

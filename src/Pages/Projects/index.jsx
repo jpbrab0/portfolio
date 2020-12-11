@@ -1,20 +1,22 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-
+import Footer from '../../Components/Footer'
 import "./styles.css";
-
+import { Link } from 'react-router-dom'
 const Projects = () => {
   const [repo, setRepo] = useState([]);
-  useEffect(
-    () => {
-      axios
-        .get("https://gh-pinned-repos.now.sh/?username=jpbrab0")
-        .then((res) => {
-          setRepo(res.data);
-        })
-    },
-    [],
-  );
+  const [repoLoaded, setRepoLoaded] = useState(false);
+
+  useEffect(() => {
+    axios
+      .get("https://gh-pinned-repos.now.sh/?username=jpbrab0")
+      .then((res) => {
+        setRepo(res.data);
+      });
+  }, []);
+  setTimeout(() => {
+    setRepoLoaded(true);
+  }, 1500);
   return (
     <>
       <link
@@ -23,15 +25,16 @@ const Projects = () => {
       ></link>
       <header className="projects_header">
         <div>
-          <a href="javascript:history.back()">
+          <Link to="/">
             <i className="material-icons">arrow_back</i>
-          </a>
+          </Link>
           <h1>Projects</h1>
         </div>
       </header>
       <main>
         <div className="projects">
-          {repo.map((data) => {
+          {repoLoaded ? (
+            repo.map((data) => {
               return (
                 <div className="project" key={data.repo}>
                   <header className="headerProject">
@@ -54,9 +57,14 @@ const Projects = () => {
                 </div>
               );
             })
-          }
+          ) : (
+            <div className="loading__container">
+              <h1>Carregando...</h1>
+            </div>
+          )}
         </div>
       </main>
+      <Footer position={repoLoaded ? false : true}/>
     </>
   );
 };
