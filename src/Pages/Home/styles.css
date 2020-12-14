@@ -6,6 +6,17 @@
     padding:0;
     border: none;
 }
+/*animation: up 720ms ease-in-out forwards;*/
+
+@keyframes up {
+    from {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+    to {
+      opacity: 1;
+    }
+}
 body{
     background: #081229;
     color: #fff;
@@ -22,9 +33,11 @@ section.about-me{
     align-items: center;
     flex-direction: row;
     justify-content: center;
+    
 }
 section.description{
     margin: 23px auto !important;
+    animation: up 720ms ease-in-out forwards;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -32,11 +45,13 @@ section.description{
     align-items: center;
 }
 section.description .img img{
+    animation: up 720ms ease-in-out forwards;
     width: 60%;
     border-radius: 50%;
     border: 3px solid #5DD7D9;
 }
 section.description div h1{
+    animation: up 720ms ease-in-out forwards;
     margin-left: 13px;
     width: 70%;
     font-size: 38px;
@@ -44,11 +59,13 @@ section.description div h1{
     
 }
 section.description div p{
+    animation: up 720ms ease-in-out forwards;
     width: 90%;
     margin-left: 13px;
     font-size: 18px;
 }
 .languages{
+    animation: up 1500ms ease-in-out forwards;
     margin: 32px auto;
     width: 100%;
     display: flex;

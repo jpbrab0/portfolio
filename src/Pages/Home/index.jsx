@@ -1,17 +1,18 @@
-import React, { useState, useEffect } from 'react'
-import axios from 'axios'
+// import React, { useState, useEffect } from 'react'
+import React from 'react'
+// import axios from 'axios'
 import './styles.css'
 import Footer from '../../Components/Footer'
 import Programando from '../../assets/programando.svg'
 import Header from '../../Components/Header'
 import Links from '../../Components/Links'
 const Home = () => {
-    const [githubInfo, setGithubInfo] = useState('')
-    useEffect(() => {
-        axios.get("https://api.github.com/users/jpbrab0").then(res => {
-            setGithubInfo(res.data)
-        })
-    }, [])
+    // const [githubInfo, setGithubInfo] = useState('')
+    // useEffect(() => {
+    //     axios.get("https://api.github.com/users/jpbrab0").then(res => {
+    //         setGithubInfo(res.data)
+    //     })
+    // }, [])
     return(
         <>
             <Header title="João Pedro"/>
@@ -27,7 +28,7 @@ const Home = () => {
                             Currently I'm 13 years old and front-end developer with Python, Javascript and three frameworks ReactJs, NodeJS and React Native</p>
                         </div>
                         <div className="img">
-                            <img src={githubInfo.avatar_url} alt="Homem Programando" draggable={false}/>
+                            <img src="https://github.com/jpbrab0.png" alt="Homem Programando" draggable={false}/>
                         </div>
                     </section>
                 </section>
