@@ -91,5 +91,6 @@ a {
 @media(max-width:730px){
     .posts .post{
         width: 70%;
+        padding-bottom: 10%;
     }
 }
