@@ -59,7 +59,7 @@ const Projects = () => {
             })
           ) : (
             <div className="loading__container">
-              <h1>Carregando...</h1>
+              <h1>Loading Projects...</h1>
             </div>
           )}
         </div>

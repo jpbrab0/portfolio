@@ -12,6 +12,9 @@ function Header(props){
                 <Link to="/projects">
                     Projects
                 </Link>
+                <Link to="/blog">
+                    Blog
+                </Link>
             </section>
         </header>
     )
