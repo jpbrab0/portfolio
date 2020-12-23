@@ -90,11 +90,6 @@ a {
 }
 @media(max-width:730px){
     .posts .post{
-        width: 60%;
-    }
-}
-@media(max-width:375px){
-    .posts .post{
         width: 70%;
     }
 }
