@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom'
 import axios from "axios";
+import Footer from '../../Components/Footer'
 import "./styles.css";
 export default (_) => {
   const [postData, setPostData] = useState([]);
@@ -46,7 +47,7 @@ export default (_) => {
             </div>
           );
         }) : <h1>Loading Posts...</h1>}
-        
+        <Footer position={true}/>
       </div>
     </>
   );
