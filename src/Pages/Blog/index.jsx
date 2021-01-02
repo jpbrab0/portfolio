@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom'
 import axios from "axios";
-import Footer from '../../Components/Footer'
 import "./styles.css";
 export default (_) => {
   const [postData, setPostData] = useState([]);
@@ -41,13 +40,18 @@ export default (_) => {
                     <h2>{post.title}</h2>
                 </div>
                 <div className="tags">
-                    <span><a href={`https://dev.to/t/${post.tags}`}>{post.tags}</a></span>
+                  {post.tags.split(",").map( tag => {
+                      return (
+                        <div key={Math.random()}><a href={`https://dev.to/t/${tag}`}>{tag}</a></div>
+                      )
+
+                  })}
                 </div>
               </a>
             </div>
           );
         }) : <h1>Loading Posts...</h1>}
-        <Footer position={true}/>
+        
       </div>
     </>
   );
