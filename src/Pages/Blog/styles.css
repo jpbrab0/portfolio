@@ -57,7 +57,7 @@ a {
   border-radius: 13px;
   align-items: center;
   width: 25%;
-  margin: 0 auto;
+  margin: 13px;
   padding-bottom: 5%;
   animation: up 720ms ease-in-out forwards;
 
@@ -78,14 +78,20 @@ a {
 }
 .posts .post .tags {
   margin-top: 23px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-.posts .post .tags span {
+.posts .post .tags div {
   background-color: #f7df1e;
   color: #555;
   padding: 8px;
   border-radius: 13px;
 }
-.posts .post .tags span a {
+.posts .post .tags div + div{
+  margin-left: 13px;
+}
+.posts .post .tags div a {
   color: #555;
 }
 @media(max-width:730px){
