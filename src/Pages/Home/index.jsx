@@ -25,7 +25,7 @@ const Home = () => {
                             <br />
                             I live in Campo Limpo Paulista,São Paulo I've been programming since I was 10 years old and my first learned programming language was Python 3
                             <br />
-                            Currently I'm 13 years old and front-end developer with Python, Javascript and three frameworks ReactJs, NodeJS and React Native</p>
+                            Currently I'm 13 years old and web developer with this technologies: Javascript, Golang, Php, PostgreSQL, Node Js</p>
                         </div>
                         <div className="img">
                             <img src="https://github.com/jpbrab0.png" alt="Homem Programando" draggable={false}/>
@@ -40,18 +40,21 @@ const Home = () => {
                     <div className="description">
                         <h1>Languages</h1>
                         <p>
+                            <img src="https://img.shields.io/badge/golang%20-%23323330.svg?&style=for-the-badge&logo=go&logoColor=%0000ff" alt="Golang"/>
+                            <img src="https://img.shields.io/badge/php%20-%23323330.svg?&style=for-the-badge&logo=php&logoColor=%0000ff" alt="Php"/>
                             <img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="Javascript"/>
                         </p>
                         <h1>Frameworks/Libraries</h1>
                         <p>
                             <img src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white" alt="NodeJs"/>
-                            <img src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React"/>
-                            <img src="https://img.shields.io/badge/react_native%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React Native"/>
+                            <img src="https://img.shields.io/badge/Vue.js%20-%2343853D.svg?&style=for-the-badge&logo=vue.js&logoColor=%000000" alt="VueJs"/>
                         </p>
                         <h1>Technologies</h1>
                         <p>
                             <img src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
                             <img src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+                            <img src="https://img.shields.io/badge/PostgreSQL%20-%23323330.svg?&style=for-the-badge&logo=postgresql&logoColor=%0000ff" alt="PostgreSQL"/>
+                            <img src="https://img.shields.io/badge/LINUX%20-%23323330.svg?&style=for-the-badge&logo=linux&logoColor=%000000" alt="Linux"/>
                         </p>
                     </div>
                 </section>
