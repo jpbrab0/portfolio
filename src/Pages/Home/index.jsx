@@ -40,9 +40,9 @@ const Home = () => {
                     <div className="description">
                         <h1>Languages</h1>
                         <p>
-                            <img src="https://img.shields.io/badge/golang%20-%23323330.svg?&style=for-the-badge&logo=go&logoColor=%0000ff" alt="Golang"/>
-                            <img src="https://img.shields.io/badge/php%20-%23323330.svg?&style=for-the-badge&logo=php&logoColor=%0000ff" alt="Php"/>
-                            <img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="Javascript"/>
+                            <img src="https://img.shields.io/badge/golang%20-%23121011.svg?&style=for-the-badge&logo=go&logoColor=%0000ff" alt="Golang"/>
+                            <img src="https://img.shields.io/badge/php%20-%23121011.svg?&style=for-the-badge&logo=php&logoColor=%0000ff" alt="Php"/>
+                            <img src="https://img.shields.io/badge/javascript%20-%23121011.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="Javascript"/>
                         </p>
                         <h1>Frameworks/Libraries</h1>
                         <p>
@@ -53,8 +53,8 @@ const Home = () => {
                         <p>
                             <img src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
                             <img src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-                            <img src="https://img.shields.io/badge/PostgreSQL%20-%23323330.svg?&style=for-the-badge&logo=postgresql&logoColor=%0000ff" alt="PostgreSQL"/>
-                            <img src="https://img.shields.io/badge/LINUX%20-%23323330.svg?&style=for-the-badge&logo=linux&logoColor=%000000" alt="Linux"/>
+                            <img src="https://img.shields.io/badge/PostgreSQL%20-%23121011.svg?&style=for-the-badge&logo=postgresql&logoColor=%0000ff" alt="PostgreSQL"/>
+                            <img src="https://img.shields.io/badge/LINUX%20-%23121011.svg?&style=for-the-badge&logo=linux&logoColor=%000000" alt="Linux"/>
                         </p>
                     </div>
                 </section>
