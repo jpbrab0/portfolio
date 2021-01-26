@@ -25,7 +25,7 @@ const Home = () => {
                             <br />
                             I live in Campo Limpo Paulista,São Paulo I've been programming since I was 10 years old and my first learned programming language was Python 3
                             <br />
-                            Currently I'm 13 years old and web developer with this technologies: Javascript, Golang, Php, PostgreSQL, Node Js</p>
+                            Currently I'm 13 years old and web developer with this technologies: Javascript, Golang, Php, PostgreSQL and Node.js</p>
                         </div>
                         <div className="img">
                             <img src="https://github.com/jpbrab0.png" alt="Homem Programando" draggable={false}/>
