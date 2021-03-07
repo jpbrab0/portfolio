@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Blog from "./Pages/Blog";
 import Home from "./Pages/Home";
 import Projects from "./Pages/Projects";
 const Routes = () => {
@@ -9,7 +8,6 @@ const Routes = () => {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/projects" component={Projects} />
-        <Route path="/blog" component={Blog}/>
       </Switch>
     </BrowserRouter>
   );
