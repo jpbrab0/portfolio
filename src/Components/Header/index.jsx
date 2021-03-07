@@ -6,15 +6,15 @@ function Header(props){
         <header>
             <h1>{props.title}</h1>
             <section className="link">
-                <a rel="opener" href="https://linktree-jpres.vercel.app/">
+                <a target="_blank" rel="noopener noreferrer" href="https://linktree-jpres.vercel.app/">
                     Links
                 </a>
                 <Link to="/projects">
                     Projects
                 </Link>
-                <Link to="/blog">
+                <a target="_blank" rel="noopener noreferrer" href="https://blog.jpres.dev">
                     Blog
-                </Link>
+                </a>
             </section>
         </header>
     )
