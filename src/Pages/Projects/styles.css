@@ -35,7 +35,7 @@ main .projects{
     flex-wrap: wrap;
     flex-flow: row wrap;
     margin-bottom: 32px;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 main .projects .project{
     animation: up 720ms ease-in-out forwards;
@@ -74,7 +74,7 @@ main .projects .project .thumbnail img{
 main .projects .project .description p{
     width: 80%;
     margin: 13px auto;
-    text-align: left;
+    text-align: center;
 }
 main .projects .project .description h2{
     margin: 23px auto;
