@@ -9,7 +9,7 @@ const Projects = () => {
 
   useEffect(() => {
     axios
-      .get("https://gh-pinned-repos.now.sh/?username=jpbrab0")
+      .get("https://gh-pinned-repos-5l2i19um3.vercel.app/?username=jpbrab0")
       .then((res) => {
         setRepo(res.data);
       });
