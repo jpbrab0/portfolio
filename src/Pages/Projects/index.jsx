@@ -52,10 +52,6 @@ const Projects = () => {
                   </header>
                   <div className="description">
                     <h2>jpbrab0/{data.repo}</h2>
-                    <div className="repo__status">
-                      <img src="https://www.prositesbrasil.com.br/wp-content/uploads/2019/07/star.png" />
-                      <p>{data.stars}</p>
-                    </div>
                     <p>{data.description}</p>
                   </div>
                 </div>
